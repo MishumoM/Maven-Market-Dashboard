@@ -25,6 +25,8 @@ The retail chain Maven Market faces challenges in managing and interpreting its 
   - `birth_year` → `Year([birthdate])`
   - `has_children` → Conditional Column: `if [total_children] = 0 then "N" else "Y"`
 
+
+
 #### 3. Connect to MavenMarket_Products CSV
 - **Table Name:** Products
 - **Headers:** Promoted
@@ -126,8 +128,13 @@ The retail chain Maven Market faces challenges in managing and interpreting its 
   - `store_state` as State or Province
   - `store_country` as Country/Region
   - `full_address` as Address
+![image](https://github.com/MishumoM/Maven-Market-Dashboard/assets/127921798/11e9a757-08c4-4f08-afca-1f236e889559)
 
-#### 5. Save File
+
+
+
+
+
 
 ### PART 3: Adding DAX Measures
 
@@ -169,6 +176,7 @@ The retail chain Maven Market faces challenges in managing and interpreting its 
   - `Unique Products` → `DISTINCTCOUNT(Products[product_name])`
   - `All Transactions` → `CALCULATE([Total Transactions], ALL(Transaction_Data))`
   - `All Returns` → `CALCULATE([Total Returns], ALL(Return_Data))`
+
 
 ### PART 4: Building the Report
 
@@ -239,4 +247,5 @@ The retail chain Maven Market faces challenges in managing and interpreting its 
 #### 10. Additional Exploration
 - **Practice:** Creating new visuals, pages, or bookmarks for further data exploration.
 
-By following these detailed steps, you can replicate the entire process in Power BI and effectively document it on your GitHub and portfolio.
+![image](https://github.com/MishumoM/Maven-Market-Dashboard/assets/127921798/8c05eb05-b417-4de1-ba0d-756b609b18ed)
+
