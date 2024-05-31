@@ -235,17 +235,5 @@ The retail chain Maven Market faces challenges in managing and interpreting its 
 #### 8. Edit Interactions
 - **Matrix:** Prevent Treemap from filtering
 
-#### 9. Bookmarks and Notes
-- **Bookmark:** Select `USA` in slicer and drill down to `Portland`
-  - **Name:** Portland 1000 Sales
-- **New Page:** Notes
-  - **Text Box:** "Portland hits 1,000 sales in December"
-  - **Button:** Link to bookmark
-  - **Test:** CTRL-click the button
-- **Additional Insights:** Create additional bookmarks and notes as needed
-
-#### 10. Additional Exploration
-- **Practice:** Creating new visuals, pages, or bookmarks for further data exploration.
-
 ![image](https://github.com/MishumoM/Maven-Market-Dashboard/assets/127921798/8c05eb05-b417-4de1-ba0d-756b609b18ed)
 
