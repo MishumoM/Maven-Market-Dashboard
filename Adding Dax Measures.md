@@ -76,6 +76,6 @@ Weekend Transactions = CALCULATE([Total Transactions], FILTER(Calendar, Calendar
 
 Unique Products = DISTINCTCOUNT(Products[product_name]) 
 
-All Transactions = CALCULATE([Total Transactions], ALL(Transaction_Data)) 
+All Transactions = COUNT(Transaction_Data[quantity])
 
-All Returns = CALCULATE([Total Returns], ALL(Return_Data))
+All Returns = COUNT(Return_Data[product_id])
