@@ -16,4 +16,6 @@
 
 5. **Updated Data Fields**
    - Formatted date fields, currency fields, and geographical data
+
+
 ![image](https://github.com/MishumoM/Maven-Market-Dashboard/assets/127921798/ff4d790d-8609-49d5-86fa-ccd3a49e3fe0)
