@@ -31,7 +31,13 @@ Years_Since_Remodel = DATEDIFF([last_remodel_date], TODAY(), YEAR)
 
 
 
-**2.Measures Transaction Data:**
+
+
+
+
+
+**2. Measures Transaction Data:**
+
 
 
 Quantity Sold = SUM(Transaction_Data[quantity]) 
